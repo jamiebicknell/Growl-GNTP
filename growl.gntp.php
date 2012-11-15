@@ -1,10 +1,10 @@
 <?php
 
 /*
-Title: Growl GNTP
-URL: http://github.com/jamiebicknell/Growl-GNTP
-Author: Jamie Bicknell
-Twitter: @jamiebicknell
+Title:      Growl GNTP
+URL:        http://github.com/jamiebicknell/Growl-GNTP
+Author:     Jamie Bicknell
+Twitter:    @jamiebicknell
 */
 
 class Growl {
