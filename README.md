@@ -4,22 +4,24 @@ Small and lightweight PHP class for sending notifications to Growl via GNTP.
 
 ## Example Usage
 
-    include 'growl.gntp.php';
+```php
+include 'growl.gntp.php';
 
-    $growl = new Growl('IP Address or Hostname','optional-password');
-    $growl->setApplication('Application Name','Notification Name');
+$growl = new Growl('IP Address or Hostname','optional-password');
+$growl->setApplication('Application Name','Notification Name');
 
-    // Only need to use the following method on first use or change of icon
-    $growl->registerApplication('http://dummyimage.com/100/');
+// Only need to use the following method on first use or change of icon
+$growl->registerApplication('http://dummyimage.com/100/');
 
-    // Basic Notification
-    $growl->notify('Title','Content goes here!');
-        
-    // Notification with Image
-    $growl->notify('Title','Content goes here!','http://dummyimage.com/100/');
-        
-    // Notification with Image and Link
-    $growl->notify('Title','Content goes here!','http://dummyimage.com/100/','http://google.com');
+// Basic Notification
+$growl->notify('Title','Content goes here!');
+    
+// Notification with Image
+$growl->notify('Title','Content goes here!','http://dummyimage.com/100/');
+    
+// Notification with Image and Link
+$growl->notify('Title','Content goes here!','http://dummyimage.com/100/','http://google.com');
+```
 
 ## Port Forwarding
 
