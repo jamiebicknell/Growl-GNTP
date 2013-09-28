@@ -69,7 +69,7 @@ class Growl {
     }
     
     public function send($data) {
-        $fp = fsockopen($this->host,$this->port,$errnum,$errstr,$this->time);
+        $fp = fsockopen($this->host,$this->port,$errno,$errstr,$this->time);
         if(!$fp) {
             echo $errstr . ' (' . $errno . ')';
         }
@@ -81,5 +81,3 @@ class Growl {
     }
     
 }
-
-?>
