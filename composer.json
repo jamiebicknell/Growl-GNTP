@@ -1,0 +1,16 @@
+{
+    "name": "jamiebicknell/Growl-GNTP",
+    "description": "Small and lightweight PHP class for sending notifications to Growl via GNTP",
+    "keywords": ["growl","gntp","php"],
+    "homepage": "http://github.com/jamiebicknell/Growl-GNTP",
+    "license": "Zlib",
+    "authors": [
+        {
+            "name": "Jamie Bicknell",
+            "homepage": "http://www.jamiebicknell.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
