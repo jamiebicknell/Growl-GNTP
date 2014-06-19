@@ -32,3 +32,7 @@ GNTP runs on TCP port 23053, so you are required to set up port forwarding so th
 * [Growl Website](http://growl.info/)
 * [Growl Notification Transport Protocol (GNTP) Specification](http://growl.info/documentation/developer/gntp.php)
 * [Port Forwarding Guides](http://portforward.com/)
+
+##License
+
+Growl GNTP PHP Class is licensed under the [MIT license](http://opensource.org/licenses/MIT), see [LICENSE.md](https://github.com/jamiebicknell/Growl-GNTP/blob/master/LICENSE.md) for details.
