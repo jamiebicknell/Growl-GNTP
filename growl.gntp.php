@@ -9,7 +9,6 @@ Twitter:    @jamiebicknell
 
 class Growl
 {
-    
     private $port = 23053;
     private $time = 5;
     
